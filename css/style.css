@@ -1,0 +1,591 @@
+@font-face {
+    font-family: 'GothamBook';
+    src: url(../Font/GothamRounded-Book.otf);
+}
+
+@font-face {
+    font-family: 'GothamMedium';
+    src: url(../Font/GothamRounded-Medium.otf);
+}
+
+@font-face{
+    font-family: 'GothamLight';
+    src: url(../Font/GothamRounded-Light.otf);
+}
+
+body{
+    font-family: 'GothamMedium';
+}
+
+h3{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg/Layer\ 6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+  
+.btn__menu button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn__menu{
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+
+.btn__menu img{
+    display: block;
+}
+
+h1{
+    font-family: 'GothamBook';
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 15px;
+    font-size: 40px;
+}
+
+.title{
+    color: #a1a9b0;
+    max-width: 615px;
+    margin: auto;
+}
+
+.second-color{
+    color: black;
+}
+
+.title p{
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 65px;
+}
+
+.second-style{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.more{
+    width: 195px;
+    height: 60px;
+    margin: auto;
+    background-color: #3dc9b3;
+    border-radius: 5px;
+    border-bottom: 3px solid #309383;
+}
+
+.more a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'GothamMedium';
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.more:hover{
+    transition: 0.3s;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.grey-block {
+    width: 100%;
+    background-color: #f3f5f8;
+}
+
+.creative-portfolio {
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
+    color: #353535;
+}
+
+.subtitle{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 100px;
+    color: #353535;
+    font-size: 15px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.creative-portfolio img{
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 65px;
+}
+
+.creative-portfolio p{
+    font-size: 14px;
+    color: #8c9398;
+    line-height: 2;  
+    padding-bottom: 130px;
+    margin-bottom: 0;
+}
+
+.we-do{
+    text-align: center;
+}
+
+.we-do h3{
+    font-size: 15px;
+    position: relative;
+}
+
+.we-do h3::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #3dc9b3;
+    display: block;
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
+
+.we-do p{
+    font-size: 14px;
+    color: #abb0b3;
+    padding-bottom: 90px;
+}
+
+
+
+
+.subtitle2{
+    padding-top: 140px;
+}
+
+.content{
+    margin-left: 20px;
+    max-width: 460px;
+}
+
+.content img{
+    width: 80%;
+    margin: auto;
+    display: block;
+    margin-bottom: 45px;
+}
+
+.content p{
+    font-size: 14px;
+    color: #abb0b3;
+    padding-bottom: 30px;
+}
+
+
+.iphone img{
+    display: block;
+    width: 100%;
+}
+
+.row0{
+    margin-bottom: 0;
+}
+.row .col {
+    padding: 0;
+}
+
+.flowers{
+    background-image: url(../img/bg/Layer\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 45% 0;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.flowers h3{
+    padding-top: 80px;
+    font-family: 'GothamBook';
+    font-size: 40px;
+    color: white;
+    letter-spacing: 10px;
+}
+
+.flowers p{
+    font-family: 'GothamBook';
+    color: white;
+    font-size: 25px;
+    letter-spacing: 7px;
+    margin-bottom: 45px;
+}
+
+.design{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.flowers button{
+    width: 41px;
+    height: 41px;
+    border: none;
+    border-radius: 100%;
+    background-color: #3dc9b3;
+    cursor: pointer;
+    margin-bottom: 55px;
+}
+
+.container-my{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.gallery{
+    text-align: center;
+    max-width: 360px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 200px;
+}
+
+
+
+.name h3{
+    padding-top: 45px;
+    font-size: 15px;
+}
+
+.gallery img{
+    display: block;
+    width: 100%;
+}
+
+.name h3::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #3dc9b3;
+    display: block;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+
+.gallery-photo:hover .about-photo{
+    display: flex;
+}
+
+.name p{
+    color:#8c9398;
+    font-size: 14px;
+    font-family: 'GothamLight';
+    font-weight: bold;
+}
+
+.about-photo {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #71b09cc0;
+    bottom: 0;
+}
+
+.about-photo img{
+    display: block;
+    margin: auto;
+    width: 30px;
+}
+
+.about-photo p{
+    color: white;
+    font-size: 15px;
+    font-family: 'GothamLight';
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.gallery-photo {
+    position: relative;
+    
+}
+
+.passion{
+    width: 100%;
+    background-color: #242830;
+    padding: 65px 0;
+
+}
+
+.passion button{
+    width: 295px;
+    height: 75px;
+    display: block;
+    margin: auto;
+    background: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 3px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+.subtitle3 img{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.people{
+    width: 100%;
+    text-align: center;
+    padding: 20px 5px;
+}
+
+.people img{
+    width: 195px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 190px;
+}
+
+.socials img{
+    width: 15px;
+}
+
+.socials a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials a:hover{
+    background-color: #3dc9b3;
+    border-radius: 100%;
+    transition: 0.3s;
+    border: none;
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #242830;
+}
+
+.hand{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 150px;
+    background-image: url(../img/bg/hand.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hand img{
+    width: 30px;
+    padding-bottom: 20px;
+}
+
+.hand input{
+    width: 350px;
+    height: 63px;
+    background: none;
+    border: solid 2px white;
+    color: white;
+    padding-left: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hand form{
+    display: flex;
+    justify-content: center;
+}
+
+.hand button{
+    display: block;
+    width: 100px;
+    height: 63px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #3dc9b3;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.hand p{
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 3px;
+    padding-bottom: 47px;
+}
+
+.btn-up button{
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    border: none;
+    border-radius: 100%;
+    background-color: #3dc9b3;
+    cursor: pointer;
+    padding-top: 13px;
+    bottom: -20px;
+    left: 48%;
+}
+
+.btn-up img{
+    width: 17px;
+}
+
+.drop{
+    padding: 0;
+}
+
+.drop-bg{
+    background-color: #f3f5f8;
+    padding-top: 125px;
+    padding-bottom: 115px;
+}
+
+.drop-block{
+    max-width: 360px;
+    text-align: center;
+    background-color: white;
+    padding-top: 28px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+.drop-block h4 {
+    font-size: 14px;
+    color: #64d4c2;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+.drop-block p{
+    font-size: 14px;
+    color: #8c9398;
+}
+.mail {
+    color: #242830 !important;
+}
+
+.drop-socials{
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.terms {
+    height: 120px;
+    width: 100%;
+    background-color: #242830;
+}
+
+.terms-content {
+    display: flex;
+    padding-top: 55px;
+}
+
+.terms-content p{
+    color: white;
+    margin: 0 10px ;
+    font-size: 14px;
+}
+
+.terms-content a{
+    color: #a1a9b0;
+    font-size: 14px;
+    font-family: 'GothamBook';
+}
+
+.terms-content a:hover{
+    color: white;
+    transition: .3s;
+}
+
+@media screen and (max-width:1250px){
+    .subtitle2{
+        padding-top: 40px;
+    }
+    
+}
+
+
+@media screen and (max-width:992px){
+    .we-do p{
+        width: 80%;
+        margin: auto;
+    }
+    .content{
+        width: 100%;
+        margin: auto;
+    }
+    .gallery{
+        max-width: 500px;
+        margin: auto;
+        margin-bottom: 40px;
+        border: solid 2px #3dc9b3;
+    }
+
+    .drop-block{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:515px) {
+    h1{
+        letter-spacing: 7px;
+        font-size: 26px;
+    }
+
+    .hand form{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hand input{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .content p{
+        font-size: 12px;
+    }
+}
+
